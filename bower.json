@@ -1,0 +1,20 @@
+{
+  "name": "Templatezavea",
+  "version": "0.0.0",
+  "authors": [
+    "Jeff Frankl <jfrankl@azavea.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "underscore": "~1.5.2",
+    "bootstrap-sass": "~3.0.2"
+  }
+}

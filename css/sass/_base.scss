@@ -1,0 +1,16 @@
+$azavea-light-blue      : rgb(75, 166, 221); // Light Blue
+$azavea-medium-blue     : rgb(55, 115, 161); // Light Blue
+$azavea-dark-blue       : rgb(32, 79, 114); // Light Blue
+$why-not-orange         : #E2950E; // I wanted to put some orange in here
+$heading-color          : rgb(56, 71, 83);
+$text-color             : rgb(102, 113, 123);
+$two-percent            : rgb(13, 78, 116);
+$h1                     : 57; // Light Blue
+$h2                     : 32; // Light Blue
+$h3                     : 24; // Light Blue
+$h4                     : 18; // Light Blue
+$h5                     : 14; // Light Blue
+
+// Modules
+@import "modules/animations";
+@import "modules/buttons";
