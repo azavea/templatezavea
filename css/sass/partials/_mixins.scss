@@ -25,7 +25,7 @@
   @for $i from 1 through $max {
     $value: nth($values, $i);
     @if type-of($value) == "number" {
-      $remValues: #{$remValues + $value/16}rem;
+      $remValues: #{$remValues + $value/10}rem;
     }
     @else {
       $remValues: #{$remValues + $value};
