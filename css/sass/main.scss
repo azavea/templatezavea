@@ -1,7 +1,10 @@
 // Bootstrap
+@import "../../bower_components/bootstrap-sass/lib/normalize";
 @import "../../bower_components/bootstrap-sass/lib/variables";
 @import "partials/variables"; // Override
 @import "../../bower_components/bootstrap-sass/lib/mixins";
+@import "../../bower_components/bootstrap-sass/lib/scaffolding";
+@import "../../bower_components/bootstrap-sass/lib/responsive-utilities";
 @import "../../bower_components/bootstrap-sass/lib/grid";
 
 // Partials
