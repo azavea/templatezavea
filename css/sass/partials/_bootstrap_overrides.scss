@@ -4,13 +4,13 @@
 }
 
 .row {
-    @include rem(margin-left, -$typography-gutter);
-    @include rem(margin-right, -$typography-gutter);
+    @include rem(margin-left, -$typography-gutter/2);
+    @include rem(margin-right, -$typography-gutter/2);
 }
 
 .container {
-    @include rem(padding-left, $typography-gutter);
-    @include rem(padding-right, $typography-gutter);
+    @include rem(padding-left, $typography-gutter/2);
+    @include rem(padding-right, $typography-gutter/2);
 }
 
 @media screen and (min-width: $screen-sm) {
