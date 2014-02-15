@@ -13,18 +13,19 @@
     @include rem(padding-right, $typography-gutter);
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: $screen-sm) {
   .container {
     @include rem(width, $typography-container-sm);
   }
 }
-@media screen and (min-width: 992px) {
+@media screen and (min-width: $screen-md) {
   .container {
     @include rem(width, $typography-container-md);
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: $screen-lg) {
   .container {
     @include rem(width, $typography-container-lg);
   }
 }
+
