@@ -1,0 +1,18 @@
+header {
+  background-color: #eee;
+}
+footer {
+  background-color: #222;
+  p, h1, h2, h3, h4, h5, h6 {
+    color: #fff;
+  }
+}
+#hero {
+  background-color: $azavea-light-blue;
+}
+#about {
+  background-color: $azavea-dark-blue;
+  p, h1, h2, h3, h4, h5, h6 {
+    color: #fff;
+  }
+}
