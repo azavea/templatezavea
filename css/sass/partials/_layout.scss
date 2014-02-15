@@ -1,0 +1,3 @@
+header, footer, section {
+  @include rem(padding, 60, 0);
+}
