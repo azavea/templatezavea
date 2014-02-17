@@ -151,7 +151,6 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-htmlmin');
     grunt.loadNpmTasks('grunt-usemin');
     grunt.loadNpmTasks('grunt-text-replace');
-    grunt.loadNpmTasks('grunt-csscss');
 
     grunt.registerTask('dist', ['htmlmin', 'sass', 'concat', 'uglify', 'cssmin', 'imagemin', 'copy']);
     grunt.registerTask('wp', ['clean', 'sass', 'replace:stripWp', 'useminPrepare', 'usemin', 'concat:generated', 'uglify:generated', 'cssmin:generated', 'imagemin', 'cssmin:wp', 'replace:addWp']);
